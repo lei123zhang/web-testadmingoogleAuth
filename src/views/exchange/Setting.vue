@@ -49,7 +49,7 @@
              <li><span><i>*</i> 是否推荐：</span>
                <p>
                  <RadioGroup v-model="flag">
-                   <Radio :label="1"><em>是</em></Radio>
+                   <Radio :label="1"><em>是hfeu</em></Radio>
                    <Radio :label="0"><em>否</em></Radio>
                  </RadioGroup>
                </p>

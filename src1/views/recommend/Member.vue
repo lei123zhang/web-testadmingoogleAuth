@@ -85,8 +85,8 @@ export default {
 			coinNameArr: [],
 			filterSearch: {
 				account: '',
-				minPromotionNum: -1,
-				maxPromotionNum: -1,
+				minPromotionNum: '',
+				maxPromotionNum: '',
 				pageNo: 1,
 				pageSize: 10
 			},
@@ -181,7 +181,7 @@ export default {
 			for(let key in this.filterSearch)  {
 				this.filterSearch[key] = '';
 			}
-			this.filterSearch.minPromotionNum = this.filterSearch.maxPromotionNum = -1;
+			this.filterSearch.minPromotionNum = this.filterSearch.maxPromotionNum = '';
 			this.refreshPage({pageNo: 1, pageSize: 10 });
     },
   
